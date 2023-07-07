@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: rgb(211, 133, 236);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-top: 150px;
+}
+
+#input {
+    padding: 15px;
+    border-radius: 20px;
+    outline: 0;
+    border: 0.05px solid rgb(255, 255, 255);
+    background: transparent;
+    color: white;
+    transform: scale(2, 2);
+    /* position: relative; */
+}
+
+#input::placeholder {
+    color: white;
+}
+
+button {
+    padding: 15px;
+    border-radius: 20px;
+    /* position: absolute; */
+    transform: scale(2, 2);
+    border: 0.05px solid rgb(199, 199, 199);
+    background: #ff3434;
+    color: white;
+    outline: 0;
+}
+
+
+
+h1 {
+    margin-left: -70px;
+}
+
+ul{
+    margin-top: 40px;
+}
+
+li{
+    width: 380px;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-left: -75px;
+    padding: 10px 10px;
+    /* border: 1px solid white; */
+    list-style: none;
+    font-size: 36px;
+    text-align: start;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between
+}
+
+li button{
+    padding: 5px;
+    font-size: 10px;
+    transform: scale(1, 1);
+    width: 60px;
+}
+
+/* li:hover{
+    text-decoration: line-through;
+} */
+
+.active{
+    text-decoration: line-through;
+    background: #7a7878;
+}
+
+.active .btn{
+    background: #7a7878;
+}
+
+.Box{
+    width: 500px;
+    background: rgb(237, 115, 253);
+    padding: 40px 20px 20px 90px;
+    margin-left: -100px;
+    border-radius: 20px;
+}   
