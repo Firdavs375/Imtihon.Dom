@@ -22,7 +22,7 @@ function createDelateElements(value){
     
     const btn =document.createElement('button')
     btn.className = 'btn'
-    btn.textContent = 'add'
+    btn.textContent = 'Delate'
     li.appendChild(btn)
 
     btn.addEventListener('click', (e) => {
